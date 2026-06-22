@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kočičí věštírna</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="app-shell">
+    <div class="window">
+      <header class="title-card">
+        <h1>Kočičí věštírna</h1>
+        <p>Stiskni tlačítko a nechej kočku věštit.</p>
+      </header>
+
+      <section class="oracle-card">
+        <div class="cat-face">
+          <div class="ear ear-left">
+            <div class="ear-inner"></div>
+          </div>
+          <div class="ear ear-right">
+            <div class="ear-inner"></div>
+          </div>
+          <div class="eyes">
+            <span class="eye left-eye"></span>
+            <span class="eye right-eye"></span>
+          </div>
+          <div class="nose"></div>
+          <div class="mouth"></div>
+          <div class="vibrissa vibrissa-left-1"></div>
+          <div class="vibrissa vibrissa-left-2"></div>
+          <div class="vibrissa vibrissa-left-3"></div>
+          <div class="vibrissa vibrissa-right-1"></div>
+          <div class="vibrissa vibrissa-right-2"></div>
+          <div class="vibrissa vibrissa-right-3"></div>
+          <div class="sparkle"></div>
+        </div>
+
+        <div class="fortune-box" id="fortuneBox">
+          <p class="fortune-text">Kočka poslouchá... stiskni tlačítko.</p>
+        </div>
+
+        <button id="fortuneButton" class="fortune-button">Získat věštbu</button>
+      </section>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
